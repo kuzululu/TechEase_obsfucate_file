@@ -1,0 +1,2 @@
+<?php
+ goto iukIj; yXF8T: $dbConn->closeConnection(); goto Ib8Ap; iukIj: if (isset($_POST["\x62\164\x6e\114\157\x67\151\156"])) { $user = new UserLogin($conn); $result = $user->login($conn, $_POST["\x75\163\145\162\x4c\157\147"], $_POST["\x75\163\x65\x72\120\141\x73\x73"]); if ($result) { showAlertSuccess($result); } } goto yXF8T; Ib8Ap: ?>

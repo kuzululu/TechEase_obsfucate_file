@@ -1,0 +1,2 @@
+<?php
+ goto dY__l; hCDOG: SessionManager::destroySession(); goto tL3qK; dY__l: class SessionManager { public static function startSession() { session_start(); } public static function destroySession() { self::startSession(); unset($_SESSION["\x75\x73\145\x72\137\151\x64"]); session_unset(); session_destroy(); header("\x72\145\146\x72\x65\163\150\72\x20\x31\x3b\40\165\x72\154\75\x69\156\x64\145\x78"); } } goto hCDOG; tL3qK: ?>

@@ -1,0 +1,2 @@
+<?php
+ if (isset($_POST["\142\164\x6e\122\145\x67\x69\x73\164\145\x72"])) { $insert = new UserRegistration($conn); $result = $insert->register($_POST["\154\156\141\x6d\x65"], $_POST["\146\156\141\x6d\145"], $_POST["\x75\x73\145\162\156\141\155\x65"], $_POST["\160\x61\x73\163\x77\x6f\162\144"], $_POST["\x61\143\143\x6f\165\156\164\137\x74\x79\160\x65"]); if ($result) { showAlertSuccess($result); } } ?>
